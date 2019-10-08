@@ -33,9 +33,9 @@
     <update id="updateCourse" parameterType="com.alibaba.fastjson.JSONObject">
         UPDATE fitness_course
         SET
-            title = #{title}
-            content = #{content}
-            num = #{num}
+            title = #{title},
+            content = #{content},
+            num = #{num},
             key_word = #{key_word}
         WHERE id = #{id}
     </update>
